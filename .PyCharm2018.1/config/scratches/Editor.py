@@ -11,7 +11,7 @@ def save():
         file.write(contents.get('1.0', END))
 
 top = Tk()
-top.title('Simpleee Editor')
+top.title('Simple Editor')
 contents = ScrolledText()
 contents.pack(side=BOTTOM, expand=True, fill=BOTH)
 filename = Entry()
